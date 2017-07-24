@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.header {
+  width: 100%;
+  height: 10vh;
+  padding: 0px 25px 0 25px;
+}
+
+.code-school {
+padding: 0 10px 5px 0;
+float: left;
+}
+
+.code-school > img {
+  width: 400px;
+  height: 10vh;
+  background-color: ;
+}
+
+.content-image-box {
+  width: 100%;
+  padding: 20px 80px 20px 80px;
+  background: url(https://www.pluralsight.com/content/dam/pluralsight2/target/2623-17_CodeSchoolHomePageImagery_Header.jpg)
+  center no-repeat;
+  background-size: cover;
+}
+
+.learn-practice-win {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 90px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  line-height:1.5;
+  color: white;
+}
+
+.bottom-info {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  line-height:1.5;
+  color: white;
+}
+
+.gray-box {
+  width: 40%;
+  height: 4vh;
+  border-radius: 40px;
+  padding: 0 20px 0 20px;
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  justify-content: center;
+  background-color: darkgray;
+}
+
+.clear-box {
+  width: 40%;
+  height: 4vh;
+  border-radius: 40px;
+  padding: 0 20px 0 20px;
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  justify-content: center;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.learning-paths-section {
+  margin-top: 20px;
+  text-align: center;
+  padding:
+}
+
+.burger-menu-stack {
+  float: right;
+  position: relative;
+  top:60px;
+  left: 10px;
+  color: darkgray;
+
+}
+.burger-menu-line {
+  width: 75px;
+  height: 10px;
+  margin: 10px;
+  background-color: lightgray;
+}
