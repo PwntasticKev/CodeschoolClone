@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .header {
   width: 100%;
   height: 10vh;
@@ -14,13 +18,12 @@ float: left;
 .code-school > img {
   width: 400px;
   height: 10vh;
-  background-color: ;
 }
 
 .content-image-box {
   width: 100%;
   padding: 20px 80px 20px 80px;
-  background: url(https://www.pluralsight.com/content/dam/pluralsight2/target/2623-17_CodeSchoolHomePageImagery_Header.jpg)
+  background: url(https://www.codeschool.com/assets/pages/home/hero-bg@2x-057503d50c00413129824136537c5f8e84a5748a1ec4bba93cbc3dc037f0479f.jpg)
   center no-repeat;
   background-size: cover;
 }
@@ -35,22 +38,25 @@ float: left;
   color: white;
 }
 
-.bottom-info {
+.learn-practice-info {
   text-align: center;
-  font-size: 30px;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
   line-height:1.5;
+  margin-bottom: 1rem;
   color: white;
 }
+
 
 .gray-box {
   width: 40%;
   height: 4vh;
+  font-size: 30px;
+  color: white;
   border-radius: 40px;
   padding: 0 20px 0 20px;
+  margin: auto;
+  margin-bottom: 2rem;
   display: flex;
-  flex-direction: row;
-  font-size: 30px;
   justify-content: center;
   background-color: darkgray;
 }
@@ -61,18 +67,48 @@ float: left;
   border-radius: 40px;
   padding: 0 20px 0 20px;
   display: flex;
-  flex-direction: row;
+  margin: auto;
   font-size: 30px;
   justify-content: center;
   background-color: transparent;
-  border: 1px solid white;
+  border: 2.5px solid white;
   color: white;
 }
 
+.bucket-container {
+  padding: 30px;
+}
+
+.image-content-bucket {
+  width: 50%;
+  padding: 1.25rem;
+  margin: auto;
+}
+
+.image-content-bucket > img {
+  width: 84%;
+  padding: 2rem;
+  margin: auto;
+}
+
+.bottom-content-container {
+  margin-top: 60px;
+  padding: 20px 20px 20px 20px;
+}
+
 .learning-paths-section {
-  margin-top: 20px;
   text-align: center;
-  padding:
+  line-height: 1.5rem;
+}
+.h3 {
+  font-size: 4rem;
+}
+
+.p-1 {
+  font-size: 15px;
+  margin-top: 35px;
+  margin-bottom: 6rem;
+  line-height: 3rem;
 }
 
 .burger-menu-stack {
@@ -88,4 +124,8 @@ float: left;
   height: 10px;
   margin: 10px;
   background-color: lightgray;
+}
+
+.inner-header {
+  color:blue;
 }
