@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -8,23 +7,29 @@ body {
   width: 100%;
   height: 10vh;
   padding: 0px 25px 0 25px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .code-school {
-padding: 0 10px 5px 0;
-float: left;
+  padding: 0 10px 5px 0;
+  float: left;
 }
 
-.code-school > img {
+.code-school>img {
   width: 400px;
   height: 10vh;
+}
+
+.how-code-school-works-container {
+  font-size: 14.8px !important;
+
 }
 
 .content-image-box {
   width: 100%;
   padding: 20px 80px 20px 80px;
-  background: url(https://www.codeschool.com/assets/pages/home/hero-bg@2x-057503d50c00413129824136537c5f8e84a5748a1ec4bba93cbc3dc037f0479f.jpg)
-  center no-repeat;
+  background: url(https://www.codeschool.com/assets/pages/home/hero-bg@2x-057503d50c00413129824136537c5f8e84a5748a1ec4bba93cbc3dc037f0479f.jpg) center no-repeat;
   background-size: cover;
 }
 
@@ -34,30 +39,42 @@ float: left;
   font-size: 90px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  line-height:1.5;
+  line-height: 1.5;
   color: white;
+}
+
+.track-info {
+  margin-bottom: 3rem;
+}
+
+.join-the-crowd-container {
+  margin-top: 5rem;
+  margin-bottom: 7rem;
+  padding: 30px;
+  text-align: center;
+  background-color: gray;
+}
+
+.join-the-crowd {
+  margin-bottom: 4rem;
 }
 
 .learn-practice-info {
   text-align: center;
   font-size: 20px;
-  line-height:1.5;
+  line-height: 1.5;
   margin-bottom: 1rem;
   color: white;
 }
 
-
 .gray-box {
-  width: 40%;
-  height: 4vh;
   font-size: 30px;
+  text-align: center;
   color: white;
   border-radius: 40px;
-  padding: 0 20px 0 20px;
+  padding:20px;
   margin: auto;
   margin-bottom: 2rem;
-  display: flex;
-  justify-content: center;
   background-color: darkgray;
 }
 
@@ -84,6 +101,7 @@ float: left;
   padding: 4rem;
   border-radius: 1rem;
   border: 2.5px solid lightgray;
+  box-shadow: 1.5rem;
   margin-bottom: 1rem;
 }
 
@@ -93,7 +111,7 @@ float: left;
   margin: auto;
 }
 
-.image-content-bucket > img {
+.image-content-bucket>img {
   width: 95%;
   padding: 2rem;
   margin: auto;
@@ -108,6 +126,7 @@ float: left;
   text-align: center;
   line-height: 1.5rem;
 }
+
 .h3 {
   font-size: 4rem;
 }
@@ -120,13 +139,9 @@ float: left;
 }
 
 .burger-menu-stack {
-  float: right;
-  position: relative;
-  top:60px;
-  left: 10px;
   color: darkgray;
-
 }
+
 .burger-menu-line {
   width: 75px;
   height: 10px;
@@ -143,13 +158,23 @@ float: left;
 .learn {
   padding: 3rem 3rem 0 3rem;
   margin-bottom: 3rem;
-  font-weight: 50;
+  font-weight: 300;
 }
 
 .practice {
   padding: 3rem 3rem 0 3rem;
   margin-bottom: 3rem;
   font-weight: 50;
+}
+
+.chart {
+  width: 100%;
+}
+
+.testimony-1 > img {
+  font-size: 12.2px;
+  border-radius: 20rem;
+
 }
 
 .win-section {
@@ -159,10 +184,10 @@ float: left;
 }
 
 .happy-girl-img {
-  width: 100%;
+  happy girl width: 100%;
   margin-top: 5rem;
 }
 
 .inner-header {
-  color:blue;
+  color: blue;
 }
