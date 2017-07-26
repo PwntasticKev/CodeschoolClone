@@ -77,6 +77,14 @@ float: left;
 
 .bucket-container {
   padding: 30px;
+  flex-direction: row;
+}
+
+.white-box {
+  padding: 4rem;
+  border-radius: 1rem;
+  border: 2.5px solid lightgray;
+  margin-bottom: 1rem;
 }
 
 .image-content-bucket {
@@ -86,7 +94,7 @@ float: left;
 }
 
 .image-content-bucket > img {
-  width: 84%;
+  width: 95%;
   padding: 2rem;
   margin: auto;
 }
@@ -124,6 +132,35 @@ float: left;
   height: 10px;
   margin: 10px;
   background-color: lightgray;
+}
+
+.how-it-works {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  line-height: normal;
+}
+
+.learn {
+  padding: 3rem 3rem 0 3rem;
+  margin-bottom: 3rem;
+  font-weight: 50;
+}
+
+.practice {
+  padding: 3rem 3rem 0 3rem;
+  margin-bottom: 3rem;
+  font-weight: 50;
+}
+
+.win-section {
+  padding: 3rem 3rem 0 3rem;
+  margin-bottom: 3rem;
+  font-weight: 50;
+}
+
+.happy-girl-img {
+  width: 100%;
+  margin-top: 5rem;
 }
 
 .inner-header {
