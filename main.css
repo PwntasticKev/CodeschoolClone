@@ -5,9 +5,9 @@ body {
 
 .header {
   width: 100%;
-  height: 10vh;
-  padding: 0px 25px 0 25px;
+  padding: 30px 10px 10px 30px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -17,13 +17,13 @@ body {
 }
 
 .code-school>img {
-  width: 400px;
+  width: 520px;
   height: 10vh;
 }
 
 .how-code-school-works-container {
   font-size: 14.8px !important;
-
+  background-color: white;
 }
 
 .content-image-box {
@@ -44,7 +44,7 @@ body {
 }
 
 .track-info {
-  margin-bottom: 3rem;
+  margin-bottom: 10rem;
 }
 
 .join-the-crowd-container {
@@ -52,11 +52,12 @@ body {
   margin-bottom: 7rem;
   padding: 30px;
   text-align: center;
-  background-color: gray;
+  background: #F6F8F8
 }
 
 .join-the-crowd {
   margin-bottom: 4rem;
+  font-size: 12px;
 }
 
 .learn-practice-info {
@@ -68,25 +69,25 @@ body {
 }
 
 .gray-box {
+  width: 60%;
   font-size: 30px;
   text-align: center;
   color: white;
   border-radius: 40px;
-  padding:20px;
+  padding: 20px;
   margin: auto;
   margin-bottom: 2rem;
   background-color: darkgray;
 }
 
 .clear-box {
-  width: 40%;
-  height: 4vh;
+  width: 60%;
   border-radius: 40px;
-  padding: 0 20px 0 20px;
-  display: flex;
+  text-align: center;
+  padding: 20px;
   margin: auto;
+  display: block;
   font-size: 30px;
-  justify-content: center;
   background-color: transparent;
   border: 2.5px solid white;
   color: white;
@@ -103,6 +104,7 @@ body {
   border: 2.5px solid lightgray;
   box-shadow: 1.5rem;
   margin-bottom: 1rem;
+  background-color: white;
 }
 
 .image-content-bucket {
@@ -118,8 +120,8 @@ body {
 }
 
 .bottom-content-container {
-  margin-top: 60px;
-  padding: 20px 20px 20px 20px;
+  padding: 40px 20px 20px 20px;
+  background: #F6F8F8
 }
 
 .learning-paths-section {
@@ -169,12 +171,18 @@ body {
 
 .chart {
   width: 100%;
+  margin-bottom: 6rem;
 }
 
-.testimony-1 > img {
-  font-size: 12.2px;
-  border-radius: 20rem;
 
+.testimony-1 {
+  font-size: 12px;
+  margin-bottom: 1em;
+}
+
+.anne-bertucio-img {
+  border-radius: 20rem;
+  float:left;
 }
 
 .win-section {
@@ -186,6 +194,98 @@ body {
 .happy-girl-img {
   happy girl width: 100%;
   margin-top: 5rem;
+}
+
+.fireman-container {
+  background: url(https://www.codeschool.com/assets/pages/home/bg-guide-row-ddbe2e08a865e866353bbf352e62b480318b1d7e71f8b7e79e38f434fc901c42.png);
+  width: 100%;
+  display:inline-block;
+  margin-top: 30px;
+  padding:20px;
+}
+.fire-logo {
+  width: 100%;
+  align-items: center;
+}
+
+.beginners-guide {
+  font-size: 50px;
+  color: white;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.beginner-info{
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.read-the-guide {
+  width: 60%;
+  border-radius: 40px;
+  text-align: center;
+  padding: 20px;
+  display: block;
+  margin-bottom: 3rem;
+  font-size: 30px;
+  background-color: transparent;
+  border: 2.5px solid white;
+  color: white;
+}
+
+.lady-computer {
+  width: 100%;
+  align-items: center;
+  padding-left: 10px;
+  margin-left: 20px;
+}
+
+.final-section-container {
+padding:20px;
+background: #2D3033;
+font-size: 16px;
+color: white;
+}
+.last-words {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #c0ecf4
+
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 4rem;
+}
+
+.code-school-final > img {
+  width: 55%;
+}
+
+.learn-more {
+  margin-top: 3rem;
+  margin-bottom: 2rem
+}
+
+.pluralsight {
+  width: 55%;
+  margin-bottom: 2rem;
+
+}
+
+.app-store > img {
+width: 40%;
+margin-top: 1rem;
+margin-bottom: 3rem;
+
+}
+
+.check-box {
+  width: 100%;
+  align-items: center;
 }
 
 .inner-header {
