@@ -35,13 +35,15 @@ body {
 .how-code-school-works-container {
   font-size: 14.8px !important;
   background-color: white;
+  margin-bottom: 3rem;
 }
 
 .content-image-box {
   width: 100%;
-  padding: 20px 80px 20px 80px;
+  padding: 40px 80px 40px 80px;
   background: url(https://www.codeschool.com/assets/pages/home/hero-bg@2x-057503d50c00413129824136537c5f8e84a5748a1ec4bba93cbc3dc037f0479f.jpg) center no-repeat;
   background-size: cover;
+  margin-bottom: 3rem;
 }
 
 .learn-practice-win {
@@ -54,11 +56,11 @@ body {
 }
 
 .track-info {
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
+  line-height: 40px;
 }
 
 .join-the-crowd-container {
-  margin-top: 5rem;
   margin-bottom: 7rem;
   padding: 30px;
   text-align: center;
@@ -66,7 +68,7 @@ body {
 }
 
 .join-the-crowd {
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
   font-size: 55px;
   float:left;
 }
@@ -84,27 +86,27 @@ body {
 }
 
 .gray-box {
-  width: 60%;
-  font-size: 37px;
+  width: 75%;
+  font-size: 45px;
   text-align: center;
   color: white;
-  border-radius: 40px;
-  padding: 20px;
+  border-radius: 70px;
+  padding: 40px;
   margin: auto;
   margin-bottom: 2rem;
   background-color: #575A5B;
 }
 
 .clear-box {
-  width: 60%;
-  border-radius: 40px;
+  width: 75%;
+  border-radius: 70px;
   text-align: center;
-  padding: 20px;
+  padding: 40px;
   margin: auto;
   display: block;
-  font-size: 37px;
+  font-size: 45px;
   background-color: transparent;
-  border: 2.5px solid white;
+  border: 5.5px solid white;
   color: white;
 }
 
@@ -114,10 +116,10 @@ body {
 }
 
 .white-box {
-  padding: 4rem;
-  border-radius: 1rem;
+  padding: 2.5rem;
+  border-radius: 2rem;
   border: 2.5px solid lightgray;
-  box-shadow: 1.5rem;
+  box-shadow: 1rem;
   margin-bottom: 1rem;
   background-color: white;
 }
@@ -170,7 +172,11 @@ body {
 
 .how-it-works {
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 5rem;
+  font-size: 50px;
   line-height: normal;
 }
 
@@ -200,10 +206,11 @@ body {
 .anne-bertucio-img {
   border-radius: 20rem;
   padding: 10px;
+  width: 26%;
 }
 
 .anne {
-  font-size: 20px;
+  font-size: 14px;
   position: relative;
   right: 20rem;
 }
@@ -234,29 +241,32 @@ body {
 .i-had-never {
 margin-left: auto;
 margin-bottom: .5rem;
+line-height: 1.5;
 
 }
 
 .beginners-guide {
   font-size: 50px;
   color: white;
+  line-height: 71px;
   margin-top: 30px;
 }
 
 .beginner-info {
-  font-size: 20px;
+  font-size: 16px;
+  color: white;
   margin-bottom: 30px;
   margin-top: 30px;
 }
 
 .read-the-guide {
   width: 60%;
-  border-radius: 40px;
+  border-radius: 70px;
   text-align: center;
-  padding: 20px;
+  padding: 33px;
   display: block;
   margin-bottom: 3rem;
-  font-size: 30px;
+  font-size: 35px;
   background-color: transparent;
   border: 2.5px solid white;
   color: white;
@@ -269,12 +279,16 @@ margin-bottom: .5rem;
 }
 
 .last-words {
-  font-size: 30px;
-  color: #81AFC1;
+  font-size: 38px;
+  color: #AEBDC1;
   display: block;
-  margin-bottom: 3rem;
-  margin-top: 3rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
 
+.happy-girl > img {
+  width: 100%;
+  height: 40px;
 }
 
 .final-section-container {
@@ -288,14 +302,15 @@ margin-bottom: .5rem;
   display: flex;
   justify-content: flex-start;
   width: 100%;
+  margin-bottom: 30px;
   height: 4rem;
 }
 
-.happy-girl {
+.happy-girl > img {
   width: 100%;
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
+  margin:auto;
+  margin-top: 3rem;
+  height:550px;
 }
 
 .code-school-final> img {
@@ -304,7 +319,7 @@ margin-bottom: .5rem;
 
 .learn-more {
   margin-top: 3rem;
-  margin-bottom: 2rem
+  margin-bottom: 4rem
 }
 
 .pluralsight {
@@ -316,12 +331,12 @@ margin-bottom: .5rem;
 .app-store>img {
   width: 40%;
   margin-top: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 
-.check-box {
-  width: 100%;
-  align-items: center;
+.check-list-image {
+  width: 70%;
+  margin: auto;
 }
 
 .inner-header {
