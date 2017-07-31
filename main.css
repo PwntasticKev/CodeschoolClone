@@ -282,7 +282,7 @@ line-height: 1.5;
   font-size: 38px;
   color: #AEBDC1;
   display: block;
-  margin-bottom: 2rem;
+  margin-bottom: 3.1rem;
   margin-top: 2rem;
 }
 
@@ -319,6 +319,7 @@ line-height: 1.5;
 
 .learn-more {
   margin-top: 3rem;
+  font-size: 15px;
   margin-bottom: 4rem
 }
 
@@ -327,6 +328,11 @@ line-height: 1.5;
   margin-bottom: 2rem;
 }
 
+.footer-copyright {
+  font-size: 13px;
+  font-weight:300;
+  margin-bottom: 3rem;
+}
 
 .app-store>img {
   width: 40%;
